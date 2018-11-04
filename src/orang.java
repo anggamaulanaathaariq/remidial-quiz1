@@ -20,6 +20,7 @@ public class orang {
         jumlah = 0;
         sepedamtr = new sepedamotor[10];
         System.out.println("Selamat Datang, "+ nm);
+        System.out.println("");
     }
     void beli_motor(long harga, sepedamotor spd){
         sepedamtr[jumlah] = spd;
