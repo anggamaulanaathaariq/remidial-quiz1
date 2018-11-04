@@ -10,4 +10,6 @@ public class orang {
     double km, bensin;
     orang pemilik;
     
+   
+    
 }
