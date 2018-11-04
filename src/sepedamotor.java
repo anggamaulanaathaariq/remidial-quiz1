@@ -8,8 +8,11 @@ public class sepedamotor {
     int kecepatan;
     double km, bensin;
     orang pemilik;
-    
+   
     public void kecepatan (int k) {
         kecepatan = k;
+    }
+    public void set_km (double k ){
+        
     }
 }
