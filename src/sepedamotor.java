@@ -47,10 +47,9 @@ public class sepedamotor {
                 System.out.println("Bensin habis...");
                 break;
             }
-            //
-            
-        
-         }
-        
+            //delay
+            for (int i=0; i <1000000; i++){}
+        }
+    }
 }
 
