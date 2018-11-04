@@ -38,9 +38,19 @@ public class sepedamotor {
     }
     
     void  jalan (){
-        for(;;)
-            System.out.println("");
-    }
+        for(;;) {
+            System.out.println("Sedang Jalan... km = "+ get_km());
+            if (get_bensin() <= 0) {
+                bensin = bensin - 0.001;
+                km = km + 0.1; //kecepatan tetap
+            }else {
+                System.out.println("Bensin habis...");
+                break;
+            }
+            //
+            
+        
+         }
         
 }
 
