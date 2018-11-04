@@ -28,7 +28,8 @@ public class orang {
         System.out.println(nama+" Membeli sepeda motor "+ spd.get_jenis()+" seharga "+harga);
     }
     void daftar_motor(){
-        System.out.println("Motor yang "+nama+ " :");
+        System.out.println("");
+        System.out.println("Motor yang "+nama+ " punya :");
         for(int i=0; i<jumlah; i++)
         {
             System.out.println(sepedamtr[i].get_jenis());
