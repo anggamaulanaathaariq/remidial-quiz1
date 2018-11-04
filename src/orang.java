@@ -18,7 +18,6 @@ public class orang {
         nama = nm;
         alamat = almt;
         jumlah = 0;
-        
         sepedamtr = new sepedamotor[10];
         System.out.println("Selamat Datang, "+ nm);
     }
