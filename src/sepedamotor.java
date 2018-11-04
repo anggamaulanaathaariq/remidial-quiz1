@@ -8,6 +8,10 @@ public class sepedamotor {
     int kecepatan;
     double km, bensin;
     orang pemilik;
+
+    sepedamotor(String j) {
+        jenis = j;
+    }
    
     public void set_kecepatan (int k) {
         kecepatan = k;
